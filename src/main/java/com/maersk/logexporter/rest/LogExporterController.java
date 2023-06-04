@@ -5,7 +5,6 @@ import com.maersk.logexporter.model.LogLineDTO;
 import com.maersk.logexporter.rest.common.exception.ExporterNotFoundException;
 import com.maersk.logexporter.service.LogExporterService;
 import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;

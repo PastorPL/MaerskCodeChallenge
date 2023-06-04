@@ -2,12 +2,10 @@ package com.maersk.logexporter.exporter.file;
 
 import com.maersk.logexporter.exporter.Exporter;
 import com.maersk.logexporter.exporter.Exporters;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.util.Map;
 
 
 @Configuration

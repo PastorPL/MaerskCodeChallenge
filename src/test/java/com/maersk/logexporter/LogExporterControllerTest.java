@@ -30,7 +30,6 @@ public class LogExporterControllerTest {
     @MockBean
     LogExporterService logExporterService;
 
-    private static final String DEFAULT_EXPORTER = "kafka";
 
     @Test
     public void Given_ClientWantsToStoreCorrectLogMessageWithDefaultExporter_WhenAllMandatoryFieldsArePopulated_ThenExportToDefaultChanelAndReturn204() throws Exception {
