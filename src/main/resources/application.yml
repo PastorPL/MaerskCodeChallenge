@@ -1,0 +1,13 @@
+logging:
+  level:
+    ROOT: WARN
+    springframework: WARN
+    com.maersk: DEBUG
+exporter:
+  default: kafka
+  file:
+    path: exampleLogExporterFile.txt
+  kafka:
+    url: https://example.kafka.url
+    topic: logs
+

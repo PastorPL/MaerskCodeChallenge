@@ -1,0 +1,8 @@
+exporter:
+  default: file
+  file:
+    path: example/path
+  kafka:
+    url: https://example.kafka.url
+    topic: logs
+
