@@ -1,0 +1,30 @@
+# MaerskCodeChallenge
+Recruitment task
+
+Logging system Code Challange
+
+Assumptions:
+
+1. Logging exporters should be easy to added
+2. 1 request = 1 log line
+3. Only writing logs, no methods of reading them
+4. Each exporter will have a separate configuration
+5. No security layer
+6. No monitoring
+
+Realization:
+
+1. API can be check with swagger: http://localhost:8080/swagger-ui/index.html
+2. Two endpoints /api/logs and /api/logs/{exporter}.
+3. Simple testing added, for the rest controller and service.
+4. 2 exporters implement, kafka exporter more as an example.
+
+
+To be done:
+
+1. Bulk logging - I was thinking of using Spring Batch for this, but since I have never user this framework, I run out of time before trying this
+2. API Load - I was thinking of using JMeter or Gatling, but because I've failed to realize point 1, I think it was not relevant any more
+3. Defining profiles - right now everything is working in one profile, but there should be dev/prov/other...
+4. Disable swagger in prod profile
+5. Integration test?
+6. More custome exceptions
